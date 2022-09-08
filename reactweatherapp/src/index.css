@@ -19,14 +19,14 @@ body {
 .app.warm {
   background-image: url('./assets/sun.gif');
   background-size:70%;
-  background-position: bottom;
+  background-position: center;
   transition: 0.4 ease;
 }
 
 .app.neutral{
   background-image: url('./assets/neutral.png');
-  background-size:contain;
-
+  background-size:cover;
+  background-position:center;
   transition: 0.4 ease;
 }
 
