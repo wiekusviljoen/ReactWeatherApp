@@ -26,8 +26,10 @@ main {
 }
 
 .search-box {
-  width: 100%;
+  width: 50%;
   margin: 0 0 75px;
+  position: relative;right: -25%;
+  align-content: center;
 }
 
 .search-box .search-bar {
