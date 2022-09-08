@@ -50,7 +50,7 @@ function App() {
     let month = months[d.getMonth()];
     let year = d.getFullYear();
 
-    return `${day} ${date} ${month} ${year}`;
+    return `${day} ${date} ${month} ${year} `;
   };
 
   return (
@@ -60,7 +60,7 @@ function App() {
           ? weather.main.temp > 16
             ? "app warm"
             : "app"
-          : "app"
+          : "app neutral"
       }
     >
       <main>
