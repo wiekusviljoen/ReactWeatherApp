@@ -6,17 +6,21 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  
 }
 
 .app {
-  background-image: url('./assets/cold-bg.jpg');
+  background-image: url('./assets/cold.gif');
   background-size: cover;
-  background-position: bottom;
+  
   transition: 0.4 ease;
 }
 
 .app.warm {
-  background-image: url('./assets/warm-bg.jpg');
+  background-image: url('./assets/sun.gif');
+  background-size:70%;
+  background-position: bottom;
+  transition: 0.4 ease;
 }
 
 main {
